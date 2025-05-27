@@ -1,7 +1,7 @@
 {
-  "name": "reyptr27/laravel-inertia-table",
+  "name": "cav-s-a/laravel-inertia-table",
   "description": "Inertia.js Front-end Components for Spatie's Laravel Query Builder",
-  "homepage": "https://github.com/reyptr27/laravel-inertia-table",
+  "homepage": "https://github.com/cav-s-a/laravel-inertia-table",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ReyPtr27\\LaravelQueryBuilderInertiaJs\\": "php"
+      "Cav-s-a\\LaravelQueryBuilderInertiaJs\\": "php"
     }
   },
   "autoload-dev": {

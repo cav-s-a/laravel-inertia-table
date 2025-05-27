@@ -1,6 +1,6 @@
 {
-  "name": "@reyptr27/laravel-inertia-table",
-  "version": "1.0",
+  "name": "@cav-s-a/laravel-inertia-table",
+  "version": "1.0.0",
   "description": "Inertia.js Front-end Components for Spatie's Laravel Query Builder",
   "private": false,
   "author": "Reyptr27 <reynaldo.ptr27@gmail.com>",
@@ -30,13 +30,14 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "lodash-es": "^4.17.21",
-    "qs": "^6.10.5"
+    "qs": "^6.10.5",
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0",
     "eslint": "^8.18.0",
     "eslint-plugin-vue": "^9.1.1",
-    "vite": "^3.0",
+    "vite": "6.3.4",
     "vue": "^3.3.4"
   },
   "repository": {
