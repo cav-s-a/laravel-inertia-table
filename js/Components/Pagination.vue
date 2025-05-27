@@ -18,7 +18,7 @@
 
 <script setup>
 import { computed, inject } from "vue";
-import uniq from "lodash-es/uniq";
+import uniq from "lodash-es/uniq.js";
 import { getTranslations } from "../translations.js";
 import { twMerge } from "tailwind-merge";
 import { get_theme_part } from "../helpers.js";

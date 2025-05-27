@@ -28,9 +28,9 @@
 
 <script setup>
 import OnClickOutside from "./OnClickOutside.vue";
-import { createPopper } from "@popperjs/core/lib/popper-lite";
-import preventOverflow from "@popperjs/core/lib/modifiers/preventOverflow";
-import flip from "@popperjs/core/lib/modifiers/flip";
+import { createPopper } from "@popperjs/core/lib/popper-lite.js";
+import preventOverflow from "@popperjs/core/lib/modifiers/preventOverflow.js";
+import flip from "@popperjs/core/lib/modifiers/flip.js";
 import { ref, watch, onMounted, inject } from "vue";
 import { get_theme_part } from "../helpers.js";
 import { twMerge } from "tailwind-merge";

@@ -65,7 +65,7 @@
 
 <script setup>
 import { computed, ref, watch, nextTick, inject } from "vue";
-import find from "lodash-es/find";
+import find from "lodash-es/find.js";
 import { twMerge } from "tailwind-merge";
 import { get_theme_part } from "../helpers.js";
 
